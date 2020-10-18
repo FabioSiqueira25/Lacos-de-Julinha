@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+h1{
+    font-family: Digitalt;
+    font-size: 30pt;
+    color:skyblue; 
+}
+p{
+    font-family: Digitalt;
+    font-size: 15pt;
+    color:skyblue;
+}
+h2{
+
+    font-family: Digitalt;
+    font-size: 20pt;
+    color: pink;
+}
+
+body{
+    background-color: seashell;
+}
