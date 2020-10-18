@@ -17,6 +17,14 @@ h2{
     color: pink;
 }
 
+h3{
+
+    font-family: Digitalt;
+    font-size:  20pt;
+    color: pink;
+
+}
+
 body{
-    background-color: seashell;
+    background-color:snow;
 }
