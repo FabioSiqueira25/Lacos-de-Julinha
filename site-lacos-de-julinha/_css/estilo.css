@@ -1,12 +1,22 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script&family=Lobster&display=swap');
 body{
-    
     background-color:white;
     color: rgba(0, 0, 0, 1)
 }
+div#interface #pdest{
+    text-align: center;
+}
+div#interface h3{
+    font-family: 'Comfortaa', cursive;
+    color: #999999;
+}
+
 p{
+    font-family: 'Comfortaa', cursive;
     text-align: justify;
     text-indent: 50px;    
+    color: #999999;
 }
 /* formatação do icone do cabeçalho*/
 header#cabecalho img#icone{
@@ -16,17 +26,31 @@ header#cabecalho img#icone{
 }
 /*formatação do cabeçalho*/
 header#cabecalho{
-
+    border-bottom: solid #f0b4cd;
+    padding: 40px;
+}
+header#cabecalho h2{
+    font-family: 'Dancing Script', cursive;
+    padding: 0px;
+    margin-top: 0px;
+    color: #f0b4cd;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+}
+header#cabecalho h1{
+    font-family: 'Lobster', cursive;
+    font-size: 30pt;
+    padding: 0px;
+    margin-bottom: 0px;
+    color: #f0b4cd;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
 }
 /*formatação da interface div*/
 div#interface{
     width: 1000px;
-    background-color: pink;
+    background-color: #ffffff;
     margin: -20px auto 10px auto;
     box-shadow: 0px 0px 10px grey;
     padding: 10px;
-
-
 }
 
 /*formatação div termina aqui*/
@@ -41,18 +65,23 @@ nav#menu ul{
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -20px;
-    left: 1075px;
+    top: 170px;
+    left: 440px;
+    
 }
 nav#menu li{
     display: inline-block;
-    background-color: white;
-    padding: 10px;
-    margin: 2px;
+    background-color:#f0b4cd;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
     transition: background-color 1s;
+    font-family: 'Comfortaa', cursive;
+    color: #999999;
+
 }
 nav#menu li:hover{
-    background-color: grey;
+    background-color:#abe0f8;
 }
 nav#menu h1{
     display: none;
