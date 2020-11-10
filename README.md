@@ -4,4 +4,4 @@ O site será uma loja virtual de artigos para bebês, está sendo desenvolvido i
 
 
 
-![loja laços de julinha](https://github.com/FabioSiqueira25/Lacos-de-Julinha/blob/main/site-lacos-de-julinha/_images/lojahome.gif)
+![loja laços de julinha](https://github.com/FabioSiqueira25/Lacos-de-Julinha/blob/main/site-lacos-de-julinha/_images/lojahome2.gif)
