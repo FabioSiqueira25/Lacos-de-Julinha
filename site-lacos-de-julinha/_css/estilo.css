@@ -96,6 +96,20 @@ nav#menu a{
 nav#menu a:hover{
     color: #ffffff;
 }
+.fotopostagem{
+    border: 10px solid white;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, .3);
+}
+
+#postagem1{
+    background-color: #f0b4cd;
+    padding-left: 10px;
+}
+#postagem2{
+    background-color: #f0b4cd;
+    padding: 10px;
+}
+
 footer#rodape{
     border-top: solid #f0b4cd;
     padding: 20px;
