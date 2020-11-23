@@ -1,128 +1,14 @@
 @charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script&family=Lobster&display=swap');
 
 body{
-    background-color:white;
-    color: rgba(0, 0, 0, 1)
-}
-div#interface #pdest{
-    text-align: center;
-}
-div#interface h3{
-    font-family: 'Comfortaa', cursive;
-    color: #999999;
-}
-
-p{
-    text-indent: 50px;
-    font-family: 'Comfortaa', cursive;
-    text-align: justify;    
-    color: #999999;
-    padding: 10px;
-}
-/* formatação do icone do cabeçalho*/
-header#cabecalho img#icone{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 1310px;
-    top: -10px;
-}
-/*formatação do cabeçalho*/
-header#cabecalho{
-    border-bottom: solid #f0b4cd;
-    padding: 40px;
-}
-header#cabecalho h2{
-    font-family: 'Dancing Script', cursive;
-    padding: 0px;
-    margin: 0px 0px 20px 0px;
-    color: #f0b4cd;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
-}
-header#cabecalho h1{
-    font-family: 'Lobster', cursive;
-    font-size: 30pt;
-    padding: 0px;
-    margin: -30px 0px 0px 0px;
-    color: #f0b4cd;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
-}
-/*formatação da interface div*/
-div#interface{
-    width: 1200px;
-    background-color: #fff;
-    margin: -20px auto 10px auto;
-    /*box-shadow: 0px 0px 10px grey;*/
-    padding: 10px;
-}
-
-/*formatação div termina aqui*/
-
-
-/*Formatação do Menu*/
-nav#menu{
-    display: block;
-}
-
-nav#menu ul{
-    list-style: none;
-    text-transform: uppercase;
-    position: absolute;
-    top: 120px;
-    left: 440px;
-    
-    
-}
-nav#menu li{
-    display: inline-block;
-    background-color:#f0b4cd;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 10px;
-    transition: background-color 1s;
-    font-family: 'Comfortaa', cursive;
-    
-
-}
-nav#menu li:hover{
-    background-color:#abe0f8;
-}
-nav#menu h1{
-    display: none;
-}
-nav#menu a{
-    color: #999999;
-    text-decoration: none;
-}
-nav#menu a:hover{
-    color: #ffffff;
-}
-.fotopostagem{
-    border: 10px solid white;
-    box-shadow:1px 1px 5px rgba(0, 0, 0, .3);
-}
-.paragrafo_descformat{
-    border: 1px solid red;
-    width: 600px;
-}
-.postagem_principal{
-    background-color: #f0b4cd;
-    padding-left: 20px;
-    width: 650px;
-    float: left;
-}
-.postagem{
-    background-color: #f0b4cd;
-    padding: 10px;
-    width: 250px;
-    float: right;
-}
-
-footer#rodape{
-    border-top: solid #f0b4cd;
-    padding: 20px;
-    text-align: center;
-    color: #f0b4cd;
-    clear: both;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
 }
