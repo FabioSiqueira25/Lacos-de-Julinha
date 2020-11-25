@@ -31,12 +31,13 @@ a{
     text-decoration: none;
 }
 a:link, a:visited{
-    color: #ccc;
+    color: #90c3e7;
     padding: 8px 12px;
 }
 a:hover{
     color: rgb(248, 246, 247);
     background: pink;
+    border-radius: 5px;
 }
 
 /*
